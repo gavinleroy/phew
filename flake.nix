@@ -13,6 +13,7 @@
           devShell = with pkgs; mkShell {
             buildInputs = [
               sbcl
+              julia-bin
             ];
           };
         });
